@@ -48,6 +48,10 @@ body {
   float:left;
 }
 
+#projects {
+  color: white;
+}
+
 #welcome-container{
   display: flex;
   justify-content: center;
