@@ -47,6 +47,10 @@ body {
   transform: translate(-50%, -50%);
   font-size: 36px;
   font-family: $font-family-raleway;
+  White-space: nowrap;
+  @media only screen and (max-width: $tablet){
+font-size: 30px;
+  }
 }
 #sub-heading {
   color: $color-yellow;
@@ -67,6 +71,10 @@ body {
   width: 100%;
   height: 60px;
   background: $color-black;
+  @media only screen and (max-width: $tablet){
+justify-content: center;
+  }
+  
 }
 
 .navPoint {
@@ -82,6 +90,10 @@ body {
   &:hover {
     color: $color-black;
     background-color: $color-yellow;
+  }
+  @media only screen and (max-width: $tablet){
+font-size: 15px;
+justify-content: center;
   }
 }
 
@@ -148,9 +160,9 @@ transition: 1s ease;
   border-radius: 20px;
   box-shadow: 7px 7px 5px black;
   border: 2px ridge black;
-  @media handheld {
-    width: 175px;
-  height: 100px;
+   @media only screen and (max-width: $tablet){
+width: 200px;
+height: 115px;
   }
 }
 
@@ -225,6 +237,10 @@ background-size: cover;
   margin: auto;
   border-radius: 20px;
   box-shadow: 7px 7px 5px black;
+  @media only screen and (max-width: $tablet){
+width: 300px;
+height: 515px;
+  }
 }
 
 #headshot {

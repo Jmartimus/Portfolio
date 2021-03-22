@@ -30,6 +30,13 @@ body {
           transform: translate(-50%, -50%);
   font-size: 36px;
   font-family: "Raleway", sans-serif;
+  White-space: nowrap;
+}
+
+@media only screen and (max-width: 600px) {
+  #welcome-section {
+    font-size: 30px;
+  }
 }
 
 #sub-heading {
@@ -59,6 +66,14 @@ body {
   background: #000000;
 }
 
+@media only screen and (max-width: 600px) {
+  #nav-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .navPoint {
   padding: 15px;
   font-size: 24px;
@@ -76,6 +91,15 @@ body {
 .navPoint:hover {
   color: #000000;
   background-color: #feb400;
+}
+
+@media only screen and (max-width: 600px) {
+  .navPoint {
+    font-size: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 #page2 {
@@ -175,10 +199,10 @@ body {
   border: 2px ridge black;
 }
 
-@media handheld {
+@media only screen and (max-width: 600px) {
   #projectimage {
-    width: 175px;
-    height: 100px;
+    width: 200px;
+    height: 115px;
   }
 }
 
@@ -266,6 +290,13 @@ body {
   border-radius: 20px;
   -webkit-box-shadow: 7px 7px 5px black;
           box-shadow: 7px 7px 5px black;
+}
+
+@media only screen and (max-width: 600px) {
+  #contactContainer {
+    width: 300px;
+    height: 515px;
+  }
 }
 
 #headshot {
