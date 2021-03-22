@@ -211,14 +211,16 @@ height: 115px;
 }
 
 #page3 {
-  width: 100%;
-  height: 100%;
   padding-top: 70px;
   background: url('https://images.unsplash.com/photo-1603297638322-c7a08d52966c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80');
 background-size: cover;
  width: 100%;
   height: 100%;
   background-position: center center;
+  @media screen and (max-width: $tablet){
+background-size: 800px;
+background-position:left;
+  }
 }
 
 #page3title {
