@@ -33,7 +33,7 @@ body {
   White-space: nowrap;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   #welcome-section {
     font-size: 30px;
   }
@@ -66,7 +66,7 @@ body {
   background: #000000;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   #nav-list {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -93,7 +93,7 @@ body {
   background-color: #feb400;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .navPoint {
     font-size: 15px;
     -webkit-box-pack: center;
@@ -199,7 +199,7 @@ body {
   border: 2px ridge black;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   #projectimage {
     width: 200px;
     height: 115px;
@@ -292,7 +292,7 @@ body {
           box-shadow: 7px 7px 5px black;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   #contactContainer {
     width: 300px;
     height: 515px;
