@@ -87,7 +87,7 @@ body {
 }
 
 #page2title {
-  color: #627396;
+  color: #000000;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
@@ -106,11 +106,20 @@ body {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 700px;
-  margin-left: 515px;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 700px;
 }
 
 .column {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,7 +135,6 @@ body {
 }
 
 .projectcontainer {
-  background-color: #d3d3d3;
   height: 280px;
   width: 100px;
   padding: 20px;
@@ -146,10 +154,32 @@ body {
           flex-direction: row;
 }
 
+.shrink img {
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.shrink img:hover {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
 #projectimage {
   width: 250px;
   height: 150px;
   border-radius: 20px;
+  -webkit-box-shadow: 7px 7px 5px black;
+          box-shadow: 7px 7px 5px black;
+  border: 2px ridge black;
+}
+
+@media handheld {
+  #projectimage {
+    width: 175px;
+    height: 100px;
+  }
 }
 
 .btncontainer {
@@ -176,20 +206,20 @@ body {
 }
 
 #demo {
-  border: 2px solid #5a4a60;
+  border: 2px solid #000000;
 }
 
 #demo:link {
-  color: #5a4a60;
+  color: #000000;
 }
 
 #demo:visited {
-  color: #5a4a60;
+  color: #000000;
 }
 
 #demo:hover {
   color: whitesmoke;
-  background-color: #5a4a60;
+  background-color: #000000;
 }
 
 #code {
@@ -210,15 +240,18 @@ body {
 }
 
 #page3 {
-  background-color: #feb400;
-  background-size: cover;
   width: 100%;
   height: 100%;
   padding-top: 70px;
+  background: url("https://images.unsplash.com/photo-1603297638322-c7a08d52966c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
 }
 
 #page3title {
-  color: #4a7aba;
+  color: whitesmoke;
   font-family: "Poppins", sans-serif;
   text-align: center;
   margin-bottom: 30px;
@@ -231,6 +264,8 @@ body {
   text-align: center;
   margin: auto;
   border-radius: 20px;
+  -webkit-box-shadow: 7px 7px 5px black;
+          box-shadow: 7px 7px 5px black;
 }
 
 #headshot {

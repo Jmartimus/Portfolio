@@ -8,6 +8,10 @@ $color-black: #000000;
 $font-family-roboto: 'Roboto', sans-serif;
 $font-family-Poppins: 'Poppins', sans-serif;
 $font-family-raleway: 'Raleway', sans-serif;
+$tablet: 600px;
+$desktopSmall: 1000px;
+$desktopLarge: 1300px;
+
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -31,6 +35,7 @@ body {
   width: 100%;
   height: 100%;
   padding-top: 5px;
+  
 }
 
 #welcome-section {
@@ -88,29 +93,32 @@ body {
   padding-top: 70px;
 }
 #page2title {
-  color: $color-dark-gray;
+  color: $color-black;
   font-family: $font-family-Poppins;
   text-align: center;
 }
 
 .allprojectscontainer {
   background-color:  $color-light-gray;
+
 }
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 700px;
-  margin-left: 515px;
+  margin: auto;
+  justify-content: center;
+  max-width: 700px;
 }
 .column {
+  align-items:center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
 }
 .projectcontainer {
-  background-color: $color-light-gray;
   height: 280px;
   width: 100px;
   padding: 20px;
@@ -123,11 +131,27 @@ body {
   flex-direction: row;
 }
 
+.shrink img {
+transition: 1s ease;
+}
+
+.shrink img:hover{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+}
 
 #projectimage {
   width: 250px;
   height: 150px;
   border-radius: 20px;
+  box-shadow: 7px 7px 5px black;
+  border: 2px ridge black;
+  @media handheld {
+    width: 175px;
+  height: 100px;
+  }
 }
 
 .btncontainer {
@@ -148,16 +172,16 @@ body {
 }
 
 #demo {
-  border: 2px solid $color-purple;
+  border: 2px solid $color-black;
   &:link {
-    color: $color-purple;
+    color: $color-black;
   }
   &:visited {
-    color: $color-purple;
+    color: $color-black;
   }
   &:hover {
     color: $color-white;
-    background-color: $color-purple;
+    background-color: $color-black;
   }
 }
 #code {
@@ -175,18 +199,22 @@ body {
 }
 
 #page3 {
-  background-color: $color-yellow;
-  background-size: cover;
   width: 100%;
   height: 100%;
   padding-top: 70px;
+  background: url('https://images.unsplash.com/photo-1603297638322-c7a08d52966c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80');
+background-size: cover;
+ width: 100%;
+  height: 100%;
+  background-position: center center;
 }
 
 #page3title {
-  color: $color-blue;
+  color: $color-white;
   font-family: $font-family-Poppins;
   text-align: center;
   margin-bottom: 30px;
+  
 }
 
 #contactContainer {
@@ -196,7 +224,7 @@ body {
   text-align: center;
   margin: auto;
   border-radius: 20px;
-  
+  box-shadow: 7px 7px 5px black;
 }
 
 #headshot {
