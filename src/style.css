@@ -41,7 +41,7 @@ body {
 
 @media screen and (max-width: 415px) {
   #welcome-section {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
@@ -61,7 +61,7 @@ body {
 
 @media screen and (max-width: 415px) {
   #sub-heading {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 
@@ -130,7 +130,7 @@ body {
 
 @media (max-width: 415px) {
   .navPoint {
-    font-size: 10px;
+    font-size: 15px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -243,8 +243,8 @@ body {
 
 @media screen and (max-width: 415px) {
   #projectimage {
-    width: 150px;
-    height: 70px;
+    width: 175px;
+    height: 100px;
   }
 }
 
@@ -356,7 +356,7 @@ body {
 @media screen and (max-width: 415px) {
   #contactContainer {
     width: 300px;
-    height: 600px;
+    height: 550px;
   }
 }
 
