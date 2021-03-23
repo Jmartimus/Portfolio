@@ -39,6 +39,12 @@ body {
   }
 }
 
+@media screen and (max-width: 415px) {
+  #welcome-section {
+    font-size: 20px;
+  }
+}
+
 #sub-heading {
   color: #feb400;
   font-family: "Poppins", sans-serif;
@@ -74,6 +80,14 @@ body {
   }
 }
 
+@media screen and (max-width: 415px) {
+  #nav-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .navPoint {
   padding: 15px;
   font-size: 24px;
@@ -96,6 +110,15 @@ body {
 @media (max-width: 600px) {
   .navPoint {
     font-size: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 415px) {
+  .navPoint {
+    font-size: 10px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -206,6 +229,13 @@ body {
   }
 }
 
+@media screen and (max-width: 415px) {
+  #projectimage {
+    width: 100px;
+    height: 70px;
+  }
+}
+
 .btncontainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -279,6 +309,13 @@ body {
   }
 }
 
+@media screen and (max-width: 415px) {
+  #page3 {
+    background-size: 400px;
+    background-position: left;
+  }
+}
+
 #page3title {
   color: whitesmoke;
   font-family: "Poppins", sans-serif;
@@ -301,6 +338,13 @@ body {
   #contactContainer {
     width: 300px;
     height: 515px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  #contactContainer {
+    width: 200px;
+    height: 415px;
   }
 }
 

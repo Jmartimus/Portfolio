@@ -8,6 +8,7 @@ $color-black: #000000;
 $font-family-roboto: 'Roboto', sans-serif;
 $font-family-Poppins: 'Poppins', sans-serif;
 $font-family-raleway: 'Raleway', sans-serif;
+$phone: 415px;
 $tablet: 600px;
 $desktopSmall: 1000px;
 $desktopLarge: 1300px;
@@ -51,6 +52,9 @@ body {
   @media screen and (max-width: $tablet){
 font-size: 30px;
   }
+  @media screen and (max-width: $phone){
+font-size: 20px;
+  }
 }
 #sub-heading {
   color: $color-yellow;
@@ -74,7 +78,9 @@ font-size: 30px;
   @media screen and (max-width: $tablet){
 justify-content: center;
   }
-  
+  @media screen and (max-width: $phone){
+justify-content: center;
+  }
 }
 
 .navPoint {
@@ -93,6 +99,10 @@ justify-content: center;
   }
   @media (max-width: $tablet){
 font-size: 15px;
+justify-content: center;
+  }
+  @media (max-width: $phone){
+font-size: 10px;
 justify-content: center;
   }
 }
@@ -164,6 +174,10 @@ transition: 1s ease;
 width: 200px;
 height: 115px;
   }
+  @media screen and (max-width: $phone){
+width: 100px;
+height: 70px;
+  }
 }
 
 .btncontainer {
@@ -221,6 +235,10 @@ background-size: cover;
 background-size: 800px;
 background-position:left;
   }
+  @media screen and (max-width: $phone){
+background-size: 400px;
+background-position:left;
+  }
 }
 
 #page3title {
@@ -242,6 +260,10 @@ background-position:left;
   @media screen and (max-width: $tablet){
 width: 300px;
 height: 515px;
+  }
+  @media screen and (max-width: $phone){
+width: 200px;
+height: 415px;
   }
 }
 
