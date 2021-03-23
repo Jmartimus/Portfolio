@@ -53,6 +53,18 @@ body {
   font-style: italic;
 }
 
+@media screen and (max-width: 600px) {
+  #sub-heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  #sub-heading {
+    font-size: 10px;
+  }
+}
+
 #nav-list {
   list-style-type: none;
   display: -webkit-box;
@@ -231,7 +243,7 @@ body {
 
 @media screen and (max-width: 415px) {
   #projectimage {
-    width: 100px;
+    width: 150px;
     height: 70px;
   }
 }
@@ -311,7 +323,7 @@ body {
 
 @media screen and (max-width: 415px) {
   #page3 {
-    background-size: 400px;
+    background-size: 800px;
     background-position: left;
   }
 }
@@ -343,8 +355,8 @@ body {
 
 @media screen and (max-width: 415px) {
   #contactContainer {
-    width: 200px;
-    height: 415px;
+    width: 300px;
+    height: 600px;
   }
 }
 
