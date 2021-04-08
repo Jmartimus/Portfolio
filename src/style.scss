@@ -119,7 +119,16 @@ background-color: $color-light-gray;
   width: 100%;
   height: 100%;
   padding-top: 70px;
+  background-position: center center;
+  @media screen and (max-width: $tablet){
+    height: 1200px;
+  }
+  @media screen and (max-width: $phone){
+background-size: 800px;
+background-position:left;
+  }
 }
+
 #page2title {
   color: $color-black;
   font-family: $font-family-Poppins;
@@ -329,6 +338,43 @@ display: flex;
     background-color: $color-black;
   }
 }
+
+#builtByContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  @media screen and (max-width: $tablet){
+    margin-top: 30px;
+      }
+      @media screen and (max-width: $phone){
+        margin-top: 30px;
+      }
+    }
+
+#builtBy{
+  color: $color-white;
+  font-family:  $font-family-raleway;
+  font-size: 18px;
+  @media screen and (max-width: $tablet){
+    font-size: 12px;
+      }
+      @media screen and (max-width: $phone){
+        font-size: 12px;
+      }
+    }
+#jmartLogo{
+  height: 80px;
+  width: 80px;
+  @media screen and (max-width: $tablet){
+    height: 60px;
+    width: 60px
+      }
+      @media screen and (max-width: $phone){
+        height: 60px;
+        width: 60px;
+      }
+    }
 
 $color-white: whitesmoke;
 $color-purple: #5a4a60;
