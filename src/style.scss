@@ -5,6 +5,7 @@ $color-light-gray: #d3d3d3;
 $color-dark-gray: #627396;
 $color-yellow: #feb400;
 $color-black: #000000;
+$color-darkpurple: #2e2341;
 $font-family-roboto: 'Roboto', sans-serif;
 $font-family-Poppins: 'Poppins', sans-serif;
 $font-family-raleway: 'Raleway', sans-serif;
@@ -130,7 +131,7 @@ background-position:left;
 }
 
 #page2title {
-  color: $color-black;
+  color: $color-darkpurple;
   font-family: $font-family-Poppins;
   text-align: center;
   margin-bottom: 30px;
@@ -158,7 +159,7 @@ background-position:left;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 90px;
-  background-color:  $color-black;
+  background-color:  $color-darkpurple;
 }
 
 .imgcontainer {
@@ -220,7 +221,7 @@ height: 100px;
     color: $color-white;
   }
   &:hover {
-    color: $color-black;
+    color: $color-darkpurple;
     background-color: $color-white;
   }
 }
@@ -291,6 +292,7 @@ height: 550px;
 
 .page3text {
   margin: 5px;
+  color: $color-darkpurple;
 }
 #logoContainer {
   display: flex;
@@ -312,48 +314,45 @@ display: flex;
 }
 
 #resume {
-  border: 2px solid $color-black;
+  border: 2px solid $color-darkpurple;
   &:link {
-    color: $color-black;
+    color: $color-darkpurple;
   }
   &:visited {
-    color: $color-black;
+    color: $color-darkpurple;
   }
   &:hover {
     color: $color-white;
-    background-color: $color-black;
+    background-color: $color-darkpurple;
   }
 }
 
 #vlog {
-  border: 2px solid $color-black;
+  border: 2px solid $color-darkpurple;
   &:link {
-    color: $color-black;
+    color: $color-darkpurple;
   }
   &:visited {
-    color: $color-black;
+    color: $color-darkpurple;
   }
   &:hover {
     color: $color-white;
-    background-color: $color-black;
+    background-color: $color-darkpurple;
   }
 }
 
 #builtByContainer {
+  height: 125px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  @media screen and (max-width: $tablet){
-    margin-top: 30px;
-      }
-      @media screen and (max-width: $phone){
-        margin-top: 30px;
-      }
-    }
+  background-color: $color-light-gray;}
 
 #builtBy{
-  color: $color-white;
+  display: flex;
+  align-items: center;
+  color: #3c2e52;
   font-family:  $font-family-raleway;
   font-size: 18px;
   @media screen and (max-width: $tablet){
@@ -375,6 +374,17 @@ display: flex;
         width: 60px;
       }
     }
+    #copyright{
+      color: #3c2e52;
+      font-family:  $font-family-raleway;
+      font-size: 18px;
+      @media screen and (max-width: $tablet){
+        font-size: 12px;
+          }
+          @media screen and (max-width: $phone){
+            font-size: 12px;
+          }
+        }
 
 $color-white: whitesmoke;
 $color-purple: #5a4a60;
@@ -383,3 +393,4 @@ $color-light-gray: #d3d3d3;
 $color-dark-gray: #627396;
 $color-yellow: #feb400;
 $color-black: #000000;
+$color-darkpurple: #2e2341;

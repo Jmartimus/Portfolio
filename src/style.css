@@ -160,7 +160,7 @@ body {
 }
 
 #page2title {
-  color: #000000;
+  color: #2e2341;
   font-family: "Poppins", sans-serif;
   text-align: center;
   margin-bottom: 30px;
@@ -211,7 +211,7 @@ body {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 90px;
-  background-color: #000000;
+  background-color: #2e2341;
 }
 
 .imgcontainer {
@@ -297,7 +297,7 @@ body {
 }
 
 #demo:hover {
-  color: #000000;
+  color: #2e2341;
   background-color: whitesmoke;
 }
 
@@ -383,6 +383,7 @@ body {
 
 .page3text {
   margin: 5px;
+  color: #2e2341;
 }
 
 #logoContainer {
@@ -421,66 +422,65 @@ body {
 }
 
 #resume {
-  border: 2px solid #000000;
+  border: 2px solid #2e2341;
 }
 
 #resume:link {
-  color: #000000;
+  color: #2e2341;
 }
 
 #resume:visited {
-  color: #000000;
+  color: #2e2341;
 }
 
 #resume:hover {
   color: whitesmoke;
-  background-color: #000000;
+  background-color: #2e2341;
 }
 
 #vlog {
-  border: 2px solid #000000;
+  border: 2px solid #2e2341;
 }
 
 #vlog:link {
-  color: #000000;
+  color: #2e2341;
 }
 
 #vlog:visited {
-  color: #000000;
+  color: #2e2341;
 }
 
 #vlog:hover {
   color: whitesmoke;
-  background-color: #000000;
+  background-color: #2e2341;
 }
 
 #builtByContainer {
+  height: 125px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 20px;
-}
-
-@media screen and (max-width: 600px) {
-  #builtByContainer {
-    margin-top: 30px;
-  }
-}
-
-@media screen and (max-width: 415px) {
-  #builtByContainer {
-    margin-top: 30px;
-  }
+  background-color: #d3d3d3;
 }
 
 #builtBy {
-  color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3c2e52;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
 }
@@ -513,6 +513,24 @@ body {
   #jmartLogo {
     height: 60px;
     width: 60px;
+  }
+}
+
+#copyright {
+  color: #3c2e52;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+  #copyright {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  #copyright {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=style.css.map */
