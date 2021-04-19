@@ -20,19 +20,6 @@ body {
   padding-top: 5px;
 }
 
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  #page1 {
-    width: 100%;
-    background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
 .welcome-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -112,13 +99,6 @@ body {
 @media screen and (max-width: 415px) {
   .box .title h1 {
     font-size: 24px;
-    margin-left: 40px;
-  }
-}
-
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  .box .title h1 {
-    font-size: 30px;
     margin-left: 40px;
   }
 }
@@ -378,17 +358,6 @@ body {
   }
 }
 
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  #nav-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
 #navbar-brand {
   font-family: "Raleway", sans-serif;
   -webkit-transition: color 1s;
@@ -440,13 +409,6 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-}
-
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  #navbar-brand {
-    margin-left: -50px;
-    margin-top: -5px;
   }
 }
 
@@ -578,12 +540,6 @@ body {
   }
 }
 
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  #page2 {
-    height: 850px;
-  }
-}
-
 #page2title {
   color: #242526;
   font-family: "Poppins", sans-serif;
@@ -641,17 +597,6 @@ body {
   }
 }
 
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  .allprojectscontainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-top: 50px;
-  }
-}
-
 .projectcontainer {
   height: 330px;
   width: 280px;
@@ -677,14 +622,6 @@ body {
   }
 }
 
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  .projectcontainer {
-    height: 260px;
-    width: 250px;
-    margin-left: 12px;
-  }
-}
-
 .projectcontainer .projTitles {
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -699,12 +636,6 @@ body {
 }
 
 @media screen and (max-width: 415px) {
-  .projectcontainer .projTitles {
-    font-size: 10px;
-  }
-}
-
-@media screen and (min-width: 844px) and (orientation: landscape) {
   .projectcontainer .projTitles {
     font-size: 10px;
   }
@@ -770,13 +701,6 @@ body {
   }
 }
 
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  #projectimage {
-    width: 160px;
-    height: 100px;
-  }
-}
-
 .projSkills {
   text-align: center;
   font-family: "Poppins", sans-serif;
@@ -793,12 +717,6 @@ body {
 @media screen and (max-width: 415px) {
   .projSkills {
     font-size: 7px;
-  }
-}
-
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  .projSkills {
-    font-size: 8px;
   }
 }
 
@@ -824,12 +742,6 @@ body {
   }
 }
 
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  .projAbout {
-    font-size: 12px;
-  }
-}
-
 #marsAbout {
   font-size: 11px;
   margin: 6px;
@@ -846,12 +758,6 @@ body {
   #marsAbout {
     font-size: 7.5px;
     margin: 2px;
-  }
-}
-
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  #marsAbout {
-    font-size: 8px;
   }
 }
 
@@ -966,12 +872,6 @@ body {
   #page3 {
     background-size: 800px;
     background-position: left;
-  }
-}
-
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  #page3 {
-    height: 700px;
   }
 }
 
@@ -1205,12 +1105,6 @@ body {
   padding-top: 70px;
 }
 
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  #page4 {
-    height: 700px;
-  }
-}
-
 #page4title {
   color: #242526;
   font-family: "Poppins", sans-serif;
@@ -1280,13 +1174,6 @@ body {
   }
 }
 
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  #aboutText {
-    font-size: 13px;
-    width: 350px;
-  }
-}
-
 .aboutLinks {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
@@ -1346,13 +1233,6 @@ body {
 
 @media screen and (max-width: 415px) {
   #page5 {
-    background-position: left;
-  }
-}
-
-@media screen and (min-width: 844px) and (orientation: landscape) {
-  #page5 {
-    height: 700px;
     background-position: left;
   }
 }

@@ -15,6 +15,7 @@ $font-family-Poppins: 'Poppins', sans-serif;
 $font-family-raleway: 'Raleway', sans-serif;
 $phone: 415px;
 $tablet: 600px;
+$phoneLandscape: 844px;
 $desktopSmall: 1000px;
 $desktopLarge: 1300px;
 
@@ -39,16 +40,13 @@ body {
   width: 100%;
   height: 100%;
   padding-top: 5px;
-  @media only screen 
-    and (device-width: 390px) 
-    and (device-height: 844px) 
-    and (-webkit-device-pixel-ratio: 3) and (orientation:landscape) {
-    width: 100%;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
+//   @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+//     width: 100%;
+//     background-size: cover;
+//     display: flex;
+//     justify-content: center;
 
-}
+// }
 }
 
 .welcome-section {
@@ -94,14 +92,11 @@ body {
             font-size: 24px;
             margin-left: 40px;
           }
-          @media only screen 
-    and (device-width: 390px) 
-    and (device-height: 844px) 
-    and (-webkit-device-pixel-ratio: 3) and (orientation:landscape) {
-            font-size: 30px;
-            margin-left: 40px;
-        }}
-  }}
+        //   @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+        //     font-size: 30px;
+        //     margin-left: 40px;
+        // }}
+}}}
 
 
 .sub-heading {
@@ -244,13 +239,10 @@ body {
   @media screen and (max-width: $phone) {
     justify-content: center;
   }
-  @media only screen 
-    and (device-width: 390px) 
-    and (device-height: 844px) 
-    and (-webkit-device-pixel-ratio: 3) and (orientation:landscape) {
-    display: flex;
-    justify-content: center;
-}
+//   @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+//     display: flex;
+//     justify-content: center;
+// }
   
 }
 #navbar-brand{
@@ -279,13 +271,11 @@ body {
       justify-content: center;
       align-items: center;
     }
-    @media only screen 
-    and (device-width: 390px) 
-    and (device-height: 844px) 
-    and (-webkit-device-pixel-ratio: 3) and (orientation:landscape) {
-      margin-left: -50px;
-    margin-top: -5px;}
-  }
+  //   @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+  //     margin-left: -50px;
+  //   margin-top: -5px;}
+  // }
+}
 #nav-dropdown{
   list-style-type: none;
   display: flex;
@@ -369,8 +359,8 @@ display: none;
   @media screen and (max-width: $phone) {
     height: 1500px;
   }
-  @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
-    height: 850px;}
+  // @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+  //   height: 850px;}
 }
 
 #page2title {
@@ -406,10 +396,10 @@ margin-top: 100px;
   flex-direction: column;
 align-items: center;
 margin-top: 30px;}
-@media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
-  display: flex;
-  flex-wrap: wrap;
-margin-top: 50px;}
+// @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+//   display: flex;
+//   flex-wrap: wrap;
+// margin-top: 50px;}
 }
 
 .projectcontainer {
@@ -427,10 +417,10 @@ margin-top: 50px;}
   @media screen and (max-width: $phone) {
     height: 250px;
   width: 180px;}
-  @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
-    height: 260px;
-  width: 250px;
-margin-left: 12px;}
+//   @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+//     height: 260px;
+//   width: 250px;
+// margin-left: 12px;}
     
     .projTitles{
       text-align: center;
@@ -442,8 +432,8 @@ margin-left: 12px;}
       }
       @media screen and (max-width: $phone) {
         font-size: 10px;}
-        @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
-          font-size: 10px;}
+        // @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+        //   font-size: 10px;}
     }
   .projectlines{
     margin-top: 5px;
@@ -492,9 +482,9 @@ margin-left: 12px;}
     height: 100px;
     margin-top: -3px;
   }
-  @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
-    width: 160px;
-  height: 100px;}
+  // @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+  //   width: 160px;
+  // height: 100px;}
 }
 .projSkills{
 text-align: center;
@@ -507,8 +497,8 @@ margin-top: 5px;
 @media screen and (max-width: $phone) {
   font-size: 7px;
 }
-@media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
-  font-size: 8px;}
+// @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+//   font-size: 8px;}
 }
 .projAbout{
   text-align: left;
@@ -524,8 +514,8 @@ margin-top: 5px;
     font-size: 10px;
     margin-top: 5px;
   }
-  @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
-    font-size: 12px;}
+  // @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+  //   font-size: 12px;}
 }
 #marsAbout{
   font-size: 11px;
@@ -538,8 +528,8 @@ margin-top: 5px;
     font-size: 7.5px;
     margin: 2px;
   }
-  @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
-    font-size: 8px;}
+  // @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+  //   font-size: 8px;}
 }
 .verticalLine{
   border-right: 1px solid $color-light-black;
@@ -621,8 +611,8 @@ margin-top: 5px;
     background-size: 800px;
     background-position: left;
   }
-  @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
-    height: 700px;}
+  // @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+  //   height: 700px;}
 }
 #page3title{
 text-align: center;
@@ -769,8 +759,8 @@ color: $color-light-black;
   height: 100vh;
   background-color: $color-mid-gray;
   padding-top: 70px;
-  @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
-    height: 700px;}
+  // @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+  //   height: 700px;}
 }
 #page4title {
   color: $color-light-black;;
@@ -816,9 +806,9 @@ color: $color-light-black;
     width: 350px;
     margin:0;
   }
-  @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
-    font-size: 13px;
-  width: 350px;}
+  // @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+  //   font-size: 13px;
+  // width: 350px;}
   
 }
 .aboutLinks{
@@ -867,9 +857,9 @@ box-shadow: 0px 0px 10px $color-light-black;
   @media screen and (max-width: $phone) {
     background-position: left;
   }
-  @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
-    height: 700px;
-    background-position: left;}
+  // @media screen and (min-width: $phoneLandscape) and (orientation:landscape) {
+  //   height: 700px;
+  //   background-position: left;}
 }
 
 #page5title {
