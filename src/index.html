@@ -15,95 +15,197 @@
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <script>{var date=new Date().getFullYear}</script>
+  <script>{ var date = new Date().getFullYear }</script>
 
 </head>
+
+<!--1. Add animations somewhere? maybe appear on scroll?
+    2. Find a way to feature Social Media Website
+    3. Change fonts and colors - talk to emily.
+    4. FINISH....making site mobile-friendly -->
 
 <body>
   <div id="page1">
     <div id="nav-div">
-      <nav>
-        <ul id="nav-list">
-          <li>
-            <a class="navPoint" href="#page1">Jonathan Martinez</a>
-          </li>
+      <nav id="nav-list">
+        <a id="navbar-brand" href="#page1">Jonathan Martinez</a>
+        <ul id="nav-dropdown">
           <li>
             <a class="navPoint" href="#page2">Portfolio</a>
           </li>
+          <li><a class="navPoint" href="#page3">Skills</a></li>
           <li>
-            <a class="navPoint" href="#page3">Contact</a>
+            <a class="navPoint" href="#page4"><span class="shortAbout">About</span><span class="longAbout">About Me</span></a>
+          </li>
+          <li>
+            <a class="navPoint" href="#page5">Contact</a>
           </li>
         </ul>
       </nav>
     </div>
-    <div>
-      <h1 id="welcome-section"><span class="block"></span>Hola! I am Jonathan Martinez<br> <span id="sub-heading">a
-          Front-end Web Developer</span></h1>
+    <div class="welcome-section">
+      <div class="box">
+        <div class="title">
+          <div class="block"></div>
+          <h1>Hola! I am Jonathan Martinez</h1>
+        </div>
+        <div class="sub-heading">
+          <div class="block"></div>
+          <p>a
+            Front-end Web Developer</p>
+        </div>
+      </div>
     </div>
 
   </div>
   <div id="page2">
     <div>
-      <h1 id="page2title">Portfolio</h1>
+      <h1 id="page2title">Portfolio
+        <hr id="pg2Line">
+      </h1>
     </div>
     <div class="allprojectscontainer">
-      <div class="row">
-        <div class="column">
-          <div id="randomQuoteMachine" class="projectcontainer">
-            <div class='imgcontainer shrink'><a href="https://determined-saha-075e13.netlify.app/" target="_blank"><img
-                  id="projectimage" src="images/randomquotes.png"></a></div>
-            <div class="btncontainer"><a id="demo" class="btns" href="https://determined-saha-075e13.netlify.app/"
-                target="_blank">Demo</a><a id="code" class="btns"
-                href="https://github.com/Jmartimus/Random-Quote-Machine" target="_blank">Code</a></div></a>
-          </div>
-        </div>
-        <div class="column">
-          <div id="drumMachine" class="projectcontainer">
-            <div class='imgcontainer shrink'><a href="https://compassionate-aryabhata-85328c.netlify.app/"
-                target="_blank"><img id="projectimage" src="images/drumMachine.png"></a>
-            </div>
-            <div class="btncontainer"><a id="demo" class="btns"
-                href="https://compassionate-aryabhata-85328c.netlify.app/" target="_blank">Demo</a><a id="code"
-                class="btns" href="https://github.com/Jmartimus/Drum-Machine" target="_blank">Code</a></div></a>
-          </div>
-        </div>
+      <div id="randomQuoteMachine" class="projectcontainer">
+        <div class='imgcontainer shrink'><a href="https://determined-saha-075e13.netlify.app/" target="_blank"><img
+              id="projectimage" src="images/randomquotes.png"></a></div>
+        <div class="projTitles">Random Quote Machine</div>
+        <hr class="projectlines">
+        <div class="projSkills">HTML | SCSS | JAVASCRIPT | REACT</div>
+        <div class="projAbout">This app generates random quotes and colors by making calls to an external API for the
+          quote information.</div>
+        <div class="btncontainer"><a id="demo" class="btns" href="https://determined-saha-075e13.netlify.app/"
+            target="_blank">Demo</a><a id="code" class="btns" href="https://github.com/Jmartimus/Random-Quote-Machine"
+            target="_blank">Code</a></div></a>
       </div>
-      <div class="row">
-        <div class="column">
-          <div id="reactmarkdown" class="projectcontainer">
-            <div class='imgcontainer shrink'><a href="https://hungry-carson-743ef6.netlify.app/" target="_blank"><img
-                  id="projectimage" src="images/reactmarkdown.png"></a></div>
-            <div class="btncontainer"><a id="demo" class="btns" href="https://hungry-carson-743ef6.netlify.app/"
-                target="_blank">Demo</a><a id="code" class="btns" href="https://github.com/Jmartimus/React-markdown"
-                target="_blank">Code</a></div></a>
-          </div>
+
+      <div id="drumMachine" class="projectcontainer">
+        <div class='imgcontainer shrink'><a href="https://compassionate-aryabhata-85328c.netlify.app/"
+            target="_blank"><img id="projectimage" src="images/drumMachine.png"></a>
         </div>
-        <div class="column">
-          <div id="digitalClock" class="projectcontainer">
-            <div class='imgcontainer shrink'><a href="https://adoring-brahmagupta-10a731.netlify.app/" target="_blank"><img
-                  id="projectimage" src="images/MarsRoverApp.png"></a>
-            </div>
-            <div class="btncontainer"><a id="demo" class="btns" href="https://adoring-brahmagupta-10a731.netlify.app/"
-                target="_blank">Demo</a><a id="code" class="btns" href="https://github.com/Jmartimus/Mars-Rover-App"
-                target="_blank">Code</a></div></a>
-          </div>
+        <div class="projTitles">Drum Machine</div>
+        <hr class="projectlines">
+        <div class="projSkills">HTML | SCSS | JAVASCRIPT | REACT</div>
+        <div class="projAbout">The drum machine uses "onClick" and "key" events to play drum-set sounds from an external
+          website.</div>
+        <div class="btncontainer"><a id="demo" class="btns" href="https://compassionate-aryabhata-85328c.netlify.app/"
+            target="_blank">Demo</a><a id="code" class="btns" href="https://github.com/Jmartimus/Drum-Machine"
+            target="_blank">Code</a></div></a>
+      </div>
+      <div id="reactmarkdown" class="projectcontainer">
+        <div class='imgcontainer shrink'><a href="https://hungry-carson-743ef6.netlify.app/" target="_blank"><img
+              id="projectimage" src="images/ReactMarkdown.png"></a></div>
+        <div class="projTitles">Markdown Previewer</div>
+        <hr class="projectlines">
+        <div class="projSkills">SCSS | JAVASCRIPT | REACT | MARKEDjs</div>
+        <div class="projAbout">This app uses "Marked" to compile text that has been input in the "Editor" into Markdown
+          showed in the "Previewer".</div>
+        <div class="btncontainer"><a id="demo" class="btns" href="https://hungry-carson-743ef6.netlify.app/"
+            target="_blank">Demo</a><a id="code" class="btns" href="https://github.com/Jmartimus/React-markdown"
+            target="_blank">Code</a></div></a>
+      </div>
+      <div id="digitalClock" class="projectcontainer">
+        <div class='imgcontainer shrink'><a href="https://adoring-brahmagupta-10a731.netlify.app/" target="_blank"><img
+              id="projectimage" src="images/MarsRoverApp.png"></a>
         </div>
+        <div class="projTitles">Mars Rover App</div>
+        <hr class="projectlines">
+        <div class="projSkills">REACT | RECOIL | DATEPICKER | SCSS</div>
+        <div class="projAbout" id="marsAbout">The Mars Rover App connects to the Mars rover API at Nasa to generate
+          pictures of the Mars surface based on user input. It uses recoil to manage its global state and
+          React-datepicker to streamline the user's experience. This project is still under construction.</div>
+        <div class="btncontainer"><a id="demo" class="btns" href="https://adoring-brahmagupta-10a731.netlify.app/"
+            target="_blank">Demo</a><a id="code" class="btns" href="https://github.com/Jmartimus/Mars-Rover-App"
+            target="_blank">Code</a></div></a>
       </div>
     </div>
   </div>
   <div id="page3">
-    <div id="page3BG" class="darken-pseudo"></div>
-    <h1 id="page3title">Contact</h1>
+    <h1 id="page3title">Skills
+      <hr id="pg3Line">
+    </h1>
+    <div id="page3Container">
+      <div id="container1">
+        <div class="skillContainers">
+          <img id="HTML5" src="images/Logos/Html.png">
+          <div id="html5Title">HTML5</div>
+        </div>
+        <div class="skillContainers">
+          <img id="CSS" src="images/Logos/Css.png">
+          <div id="cssTitle">CSS</div>
+        </div>
+        <div class="skillContainers">
+          <img id="Sass" src="images/Logos/Sass.png">
+          <div id="sassTitle">Sass</div>
+        </div>
+        <div class="skillContainers">
+          <img id="JavaScript" src="images/Logos/Javascript.png">
+          <div id="javascriptTitle">JavaScript</div>
+        </div>
+      </div>
+      <div id="container2">
+        <div class="skillContainers">
+          <img id="TypeScript" src="images/Logos/Typescript.png">
+          <div id="typescriptTitle">TypeScript</div>
+        </div>
+        <div class="skillContainers">
+          <img id="react" src="images/Logos/React-icon.png">
+          <div id="reactTitle">React</div>
+        </div>
+        <div class="skillContainers">
+          <img id="redux" src="images/Logos/redux.png">
+          <div id="reduxTitle">Redux</div>
+        </div>
+        <div class="skillContainers">
+          <img id="Recoil" src="images/Logos/Recoil-again.png">
+          <div id="recoilTitle">Recoil</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="page4">
+    <h1 id="page4title">About Me
+      <hr id="pg4Line">
+    </h1>
+    <div id="aboutContainer">
+      <div id="aboutText">I am primarily a Front-end React Developer who spent years in the class room as an educator.
+        This experience as a Band Director gave me a plethora of unique skills that I apply daily as a developer such
+        as: communication, punctuality, ingenuity, and tenacity. I also enjoy to write clean,
+        succinct code that functions well to create vast projects. The design aspect of web development is incredibly
+        enjoyable for me. I love learning which comes in handy when I am learning new technologies or improving my
+        skills. <br><br>I have contributed to the <a class="aboutLinks" href="https://www.reactjsdallas.com/"
+          target="_blank">React Dallas</a> open source website
+        which serves around 600 members currently. Most of my education has come from <a class="aboutLinks"
+          href="https://www.freecodecamp.org/fcc08ef6b3c-f805-4867-8535-cd12673eb77e" target="_blank">freecodecamp</a>,
+        <a class="aboutLinks" href="https://www.udemy.com/" target="_blank">Udemy.com,</a> and mentorship from several
+        established developers in the area.<br><br> I hope to find a
+        collaborative team to work alongside where I can grow and
+        contribute. I am passionate about
+        learning and education and wish to
+        carry that passion with me as I
+        continue to improve my skillset. I
+        also hope to make a positive and
+        impactful difference in the world
+        through my work in the field of web
+        development.
+
+      </div><img id="aboutPic" src="images/aboutme.jpg">
+    </div>
+  </div>
+  <div id="page5">
+    <div id="page5BG" class="darken-pseudo"></div>
+    <h1 id="page5title">Contact
+      <hr id="pg5Line">
+    </h1>
     <div id="contactContainer">
       <div><img id="headshot" src="images/Headshot.jpg"></div>
       <div>
-        <h1 class="page3text">Jonathan Martinez</h1>
+        <h1 class="page4text">Jonathan Martinez</h1>
       </div>
       <div>
-        <h3 class="page3text">Front-end Developer</h3>
+        <h3 class="page4text">Front-end Developer</h3>
       </div>
       <div>
-        <h3 class="page3text">Jmartinez070589@gmail.com</h3>
+        <h3 class="page4text">Jmartinez070589@gmail.com</h3>
       </div>
       <div id="logoContainer">
         <a class="shrink" href="https://www.linkedin.com/in/jonathan-martinez-956179176/" target="_blank"><img
@@ -114,11 +216,14 @@
             src="images/githubLogo.png"></a>
       </div>
       <div id="secondButtonContainer">
-        <a class="btns" id="resume" href="images/martinezResume.pdf" target="_blank">Resume</a>
-        <a class="btns" id="vlog" href="https://www.youtube.com/playlist?list=PLQYzoiGor9LQ3M9i9JuGLhHp3YAjSBUkA"
+        <a class="contactBtns" id="resume" href="images/martinezResume.pdf" target="_blank">Resume</a>
+        <a class="contactBtns" id="vlog" href="https://www.youtube.com/playlist?list=PLQYzoiGor9LQ3M9i9JuGLhHp3YAjSBUkA"
           target="_blank">Vlog</a>
-      </div> 
+      </div>
     </div>
   </div>
-    <footer id="builtByContainer"><div id="builtBy">Built by:<img id="jmartLogo" src="images/Jmart_Design_Logo.png"></img></div><div id="copyright">&copy Jonathan Martinez 2021</div></footer>
+  <footer id="builtByContainer">
+    <div id="builtBy">Built by:<img id="jmartLogo" src="images/Jmart_Design_Logo.png"></img></div>
+    <div id="copyright">&copy Jonathan Martinez 2021</div>
+  </footer>
 </body>
