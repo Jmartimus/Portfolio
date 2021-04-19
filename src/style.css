@@ -610,14 +610,14 @@ body {
 
 @media screen and (max-width: 600px) {
   .projectcontainer {
-    height: 230px;
+    height: 250px;
     width: 180px;
   }
 }
 
 @media screen and (max-width: 415px) {
   .projectcontainer {
-    height: 230px;
+    height: 250px;
     width: 180px;
   }
 }
