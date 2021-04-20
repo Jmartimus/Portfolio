@@ -273,7 +273,8 @@ body {
       align-items: center;
     }
     @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) and (max-width: $phoneLandscape) {
-          margin-top: -5px;}
+          margin-top: -5px;
+        font-size: 28px;}
   }
 
 #nav-dropdown{
@@ -324,6 +325,8 @@ display: none;
   display: block;
   
 }
+@media only screen and (orientation: landscape) and (max-width: $phoneLandscape) and (max-width: $phoneLandscape) {
+  display: block;}
 }
 .longAbout {
   @media (max-width: $tablet) {
@@ -332,6 +335,8 @@ display: none;
   @media (max-width: $phone) {
     display: none;
   }
+  @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) and (max-width: $phoneLandscape) {
+    display: none;}
 }
 
 #jMart{

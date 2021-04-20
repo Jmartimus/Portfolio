@@ -446,6 +446,7 @@ body {
 @media only screen and (orientation: landscape) and (max-width: 844px) and (max-width: 844px) {
   #navbar-brand {
     margin-top: -5px;
+    font-size: 28px;
   }
 }
 
@@ -522,6 +523,12 @@ body {
   }
 }
 
+@media only screen and (orientation: landscape) and (max-width: 844px) and (max-width: 844px) {
+  .shortAbout {
+    display: block;
+  }
+}
+
 @media (max-width: 600px) {
   .longAbout {
     display: none;
@@ -529,6 +536,12 @@ body {
 }
 
 @media (max-width: 415px) {
+  .longAbout {
+    display: none;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 844px) and (max-width: 844px) {
   .longAbout {
     display: none;
   }
