@@ -1305,13 +1305,13 @@ body {
 }
 
 .aboutLinks:link {
-  color: #feb400;
-  text-shadow: 1px 1px #242526;
+  color: #da9c00;
+  font-weight: bold;
 }
 
 .aboutLinks:visited {
-  color: #feb400;
-  text-shadow: 1px 1px #242526;
+  color: #da9c00;
+  font-weight: bold;
 }
 
 .aboutLinks:hover {

@@ -801,6 +801,7 @@ color: $color-light-black;
   margin-left: 20px;
   text-align: justify;
   font-size: 16px;
+
   @media screen and (max-width: $tablet) {
     font-size: 13px;
     width: 350px;
@@ -820,12 +821,12 @@ color: $color-light-black;
   font-family: $font-family-Poppins;
   text-decoration: none;
   &:link {
-    color: $color-yellow;
-    text-shadow: 1px 1px $color-light-black;
+    color: #da9c00;
+    font-weight: bold;
   }
   &:visited {
-    color: $color-yellow;
-    text-shadow: 1px 1px $color-light-black;
+    color: #da9c00;
+    font-weight: bold;
   }
   &:hover {
     color: $color-white;
