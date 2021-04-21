@@ -392,6 +392,7 @@ display: none;
 display: flex;
 justify-content: space-evenly;
 margin-top: 100px;
+margin-bottom: 50px;
 @media screen and (max-width: $tablet) {
   flex-direction: column;
   align-items: center;
@@ -412,7 +413,6 @@ margin-top: 50px;}
   width: 280px;
   padding: 10px;
   border-radius: $border-radius-container;
-  margin-bottom: 90px;
   background-color: $color-white;
   box-shadow: 0px 0px 20px #919191;
   @media screen and (max-width: $tablet) {
@@ -604,6 +604,10 @@ margin-top: 5px;
     background-color: $color-white;
     border: 2px solid $color-white;
   }
+}
+.socialMediaAppPics {
+  height: 200px;
+  width: 300px;
 }
 #page3 {
   padding-top: 70px;
@@ -842,10 +846,11 @@ box-shadow: 0px 0px 10px $color-light-black;
   display: none;
 }
 @media screen and (max-width: $phone) {
-  width: 100px;
-  height: 100px;
   display: none;
 }
+@media only screen and (orientation: landscape) and (max-width: $phoneLandscape) {
+  width: 250px;
+height: 350px;}
 }
 
 
