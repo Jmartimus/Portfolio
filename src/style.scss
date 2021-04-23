@@ -418,10 +418,12 @@ margin-top: 50px;}
   @media screen and (max-width: $tablet) {
     height: 250px;
   width: 180px;
+  margin-top: 30px;
   }
   @media screen and (max-width: $phone) {
     height: 250px;
-  width: 180px;}
+  width: 180px;
+  margin-top: 30px;}
   @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) {
     height: 260px;
   width: 250px;

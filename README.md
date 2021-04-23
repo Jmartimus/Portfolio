@@ -1,1 +1,9 @@
-# Portfolio
+# My Portfolio Page
+
+I am Jonathan Martinez the WebDev and this is the README for my Portfolio Page.  I am really excited to share this page with you as I spent a lot of time on it.  When I first started on my Portfolio page, it was a very VERY sad project that I created on Codepen almost a year ago to complete part of the FreeCodeCamp.com curriculum.  After almost a year of coding, It was time to create a true portfolio page and thus, my page was born.
+
+The first version was okay, but it lacked professionalism and didn't explain my projects. It also did not show what skills I have currently.  So I recently updated my site as of 4/19/2021.  If you are reading this way later, then I guess it is not so recent anymore haha.  Although, I am currently updating this project as I complete new apps or have ideas to make this more professional or visually appealing.
+
+This project uses a lot of Scss to make it look as nice as it does.  There are animations that I found from scouring google and lots of features/formats that I "borrowed" from other developers with really nice portfolios.  The main file for this application is in the index.HTML file.  I did not use React or even any Javascript in this application.  It is simply HTML and SCSS.  The SCSS file is large, but it is organized from the top down just like the structure of the portfolio page with sections being split by new pages. For example, each page has a title which begins a new section of the SCSS file.  
+
+If you like some of the features on this page, feel free to borrow them.  We are all in this together and if I can help someone else, I would love to.  Thanks for taking the time to check out this page.
