@@ -696,10 +696,11 @@ body {
     height: 260px;
     width: 250px;
     margin-left: 12px;
+    margin-top: 30px;
   }
 }
 
-.projectcontainer .projTitles {
+.projTitles {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -707,24 +708,24 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .projectcontainer .projTitles {
+  .projTitles {
     font-size: 10px;
   }
 }
 
 @media screen and (max-width: 415px) {
-  .projectcontainer .projTitles {
+  .projTitles {
     font-size: 10px;
   }
 }
 
 @media only screen and (orientation: landscape) and (max-width: 844px) {
-  .projectcontainer .projTitles {
+  .projTitles {
     font-size: 10px;
   }
 }
 
-.projectcontainer .projectlines {
+.projectlines {
   margin-top: 5px;
   background-color: #d1cfcf;
   height: 1px;

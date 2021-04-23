@@ -427,7 +427,9 @@ margin-top: 50px;}
   @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) {
     height: 260px;
   width: 250px;
-margin-left: 12px;}
+margin-left: 12px;
+margin-top: 30px;}
+}
     
     .projTitles{
       text-align: center;
@@ -452,7 +454,7 @@ margin-left: 12px;}
     margin-left: auto;
     margin-right: auto;
   }
-}
+
 
 .imgcontainer {
   display: flex;
