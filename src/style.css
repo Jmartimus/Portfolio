@@ -11,6 +11,46 @@ body {
   margin: 0;
 }
 
+@media screen and (max-width: 600px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 844px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+}
+
 #page1 {
   background: url("https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
   background-size: cover;
@@ -116,14 +156,14 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
   .box .title h1 {
     font-size: 24px;
     margin-left: 80px;
   }
 }
 
-@media only screen and (orientation: landscape) and (max-width: 844px) and (max-width: 844px) {
+@media only screen and (orientation: landscape) and (max-width: 844px) {
   .box .title h1 {
     font-size: 30px;
     margin-left: 40px;
@@ -184,7 +224,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
   .sub-heading p {
     font-size: 20px;
   }
@@ -391,7 +431,7 @@ body {
   }
 }
 
-@media only screen and (orientation: landscape) and (max-width: 844px) and (max-width: 844px) {
+@media only screen and (orientation: landscape) and (max-width: 844px) {
   #nav-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -456,14 +496,14 @@ body {
   }
 }
 
-@media only screen and (orientation: landscape) and (max-width: 844px) and (max-width: 844px) {
+@media only screen and (orientation: landscape) and (max-width: 844px) {
   #navbar-brand {
     margin-top: -5px;
     font-size: 28px;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
   #navbar-brand {
     font-size: 23px;
   }
@@ -526,7 +566,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
   .navPoint {
     font-size: 18px;
   }
@@ -548,7 +588,7 @@ body {
   }
 }
 
-@media only screen and (orientation: landscape) and (max-width: 844px) and (max-width: 844px) {
+@media only screen and (orientation: landscape) and (max-width: 844px) {
   .shortAbout {
     display: block;
   }
@@ -566,7 +606,7 @@ body {
   }
 }
 
-@media only screen and (orientation: landscape) and (max-width: 844px) and (max-width: 844px) {
+@media only screen and (orientation: landscape) and (max-width: 844px) {
   .longAbout {
     display: none;
   }
@@ -621,9 +661,15 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
   #page2 {
     height: 930px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  #page2 {
+    height: 900px;
   }
 }
 
@@ -696,7 +742,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
   .allprojectscontainer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -704,6 +750,17 @@ body {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin-top: -40px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  .allprojectscontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: -20px;
   }
 }
 
@@ -742,9 +799,15 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
   .projectcontainer {
     margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  .projectcontainer {
+    margin-top: 30px;
   }
 }
 
@@ -1355,10 +1418,16 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
   #aboutText {
     font-size: 13px;
     width: 300px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  #aboutText {
+    width: 500px;
   }
 }
 
@@ -1409,7 +1478,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 600px) and (max-width: 1000px) {
   #aboutPic {
     height: 400px;
     width: 250px;
