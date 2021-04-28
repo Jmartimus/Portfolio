@@ -93,6 +93,10 @@ body {
             font-size: 24px;
             margin-left: 40px;
           }
+          @media screen and (max-width: $desktopSmall) {
+            font-size: 24px;
+            margin-left: 80px;
+          }
           @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) and (max-width: $phoneLandscape) {
             font-size: 30px;
             margin-left: 40px;
@@ -131,6 +135,9 @@ body {
           }
           @media screen and (max-width: $phone) {
             font-size: 14px;
+          }
+          @media screen and (max-width: $desktopSmall) {
+            font-size: 20px;
           }
         }
   }
@@ -275,6 +282,9 @@ body {
     @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) and (max-width: $phoneLandscape) {
           margin-top: -5px;
         font-size: 28px;}
+        @media screen and (max-width: $desktopSmall) {
+          font-size: 23px;
+            }
   }
 
 #nav-dropdown{
@@ -313,6 +323,9 @@ body {
     display: flex;
     justify-content: center;
   }
+  @media screen and (max-width: $desktopSmall) {
+    font-size: 18px;
+      }
 
 }
 .shortAbout {
@@ -366,6 +379,9 @@ display: none;
   }
   @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) {
     height: 850px;}
+  @media screen and (max-width: $desktopSmall) {
+      height: 930px;}
+    
 }
 
 #page2title {
@@ -406,6 +422,11 @@ margin-top: 30px;}
   display: flex;
   flex-wrap: wrap;
 margin-top: 50px;}
+@media screen and (max-width: $desktopSmall) {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -40px;
+    }
 }
 
 .projectcontainer {
@@ -429,6 +450,8 @@ margin-top: 50px;}
   width: 250px;
 margin-left: 12px;
 margin-top: 30px;}
+@media screen and (max-width: $desktopSmall) {
+  margin-top: 60px;}
 }
     
     .projTitles{
@@ -823,6 +846,10 @@ color: $color-light-black;
   @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) {
     font-size: 13px;
   width: 350px;}
+  @media screen and (max-width: $desktopSmall) {
+    font-size: 13px;
+    width: 300px;
+      }
   
 }
 .aboutLinks{
@@ -855,6 +882,10 @@ box-shadow: 0px 0px 10px $color-light-black;
 @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) {
   width: 250px;
 height: 350px;}
+@media screen and (max-width: $desktopSmall) {
+  height: 400px;
+  width: 250px;
+    }
 }
 
 

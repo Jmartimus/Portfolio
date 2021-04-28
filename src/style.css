@@ -116,6 +116,13 @@ body {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .box .title h1 {
+    font-size: 24px;
+    margin-left: 80px;
+  }
+}
+
 @media only screen and (orientation: landscape) and (max-width: 844px) and (max-width: 844px) {
   .box .title h1 {
     font-size: 30px;
@@ -174,6 +181,12 @@ body {
 @media screen and (max-width: 415px) {
   .sub-heading p {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sub-heading p {
+    font-size: 20px;
   }
 }
 
@@ -450,6 +463,12 @@ body {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  #navbar-brand {
+    font-size: 23px;
+  }
+}
+
 #nav-dropdown {
   list-style-type: none;
   display: -webkit-box;
@@ -504,6 +523,12 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .navPoint {
+    font-size: 18px;
   }
 }
 
@@ -596,6 +621,12 @@ body {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  #page2 {
+    height: 930px;
+  }
+}
+
 #page2title {
   color: #242526;
   font-family: "Poppins", sans-serif;
@@ -665,6 +696,17 @@ body {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .allprojectscontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: -40px;
+  }
+}
+
 .projectcontainer {
   height: 330px;
   width: 280px;
@@ -697,6 +739,12 @@ body {
     width: 250px;
     margin-left: 12px;
     margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .projectcontainer {
+    margin-top: 60px;
   }
 }
 
@@ -1307,6 +1355,13 @@ body {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  #aboutText {
+    font-size: 13px;
+    width: 300px;
+  }
+}
+
 .aboutLinks {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
@@ -1351,6 +1406,13 @@ body {
   #aboutPic {
     width: 250px;
     height: 350px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #aboutPic {
+    height: 400px;
+    width: 250px;
   }
 }
 
