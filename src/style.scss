@@ -18,6 +18,7 @@ $tablet: 600px;
 $phoneLandscape: 844px;
 $desktopSmall: 1000px;
 $desktopLarge: 1300px;
+$responsive: 320px;
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -258,16 +259,6 @@ body {
   width: 100%;
   height: 60px;
   background: $color-black;
-  @media screen and (max-width: $tablet) {
-    justify-content: center;
-  }
-  @media screen and (max-width: $phone) {
-    justify-content: center;
-  }
-  @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) {
-    display: flex;
-    justify-content: center;
-  }
 }
 #navbar-brand {
   font-family: $font-family-raleway;
@@ -311,6 +302,9 @@ body {
   list-style-type: none;
   display: flex;
   align-items: center;
+  @media screen and (min-width: $responsive) {
+    background-color: black;
+  margin:0}
 }
 
 .navPoint {
@@ -664,22 +658,21 @@ body {
     border: 2px solid $color-white;
   }
 }
-.socialMediaAppPics {
-  height: 200px;
-  width: 300px;
-}
 #page3 {
   padding-top: 70px;
   height: 100vh;
   background-position: center center;
-  @media screen and (max-width: $tablet) {
-    height: 1200px;
+  @media screen and (min-width: $responsive) {
+    height: 1700px;
   }
-  @media screen and (max-width: $phone) {
+  @media screen and (min-width: $tablet) {
+    height: 700px;
+  }
+  @media screen and (min-width: $phone) {
     background-size: 800px;
     background-position: left;
   }
-  @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) {
+  @media only screen and (orientation: landscape) and (mix-width: $phoneLandscape) {
     height: 700px;
   }
 }
@@ -703,36 +696,54 @@ body {
 #page3Container {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
-  @media screen and (max-width: $tablet) {
-    margin-top: -30px;
+  justify-content: center;
+  margin-top: 50px;
+  @media screen and (min-width: $tablet) {
+    margin-top: 50px;
+    height: 500px;
   }
-  @media screen and (max-width: $phone) {
-    margin-top: -30px;
+  @media screen and (min-width: $phone) {
+    margin-top: 50px;
+    height: 500px;
   }
 }
 #container1 {
   height: 300px;
   display: flex;
   justify-content: space-evenly;
-  @media screen and (max-width: $tablet) {
+  align-items: center;
+  @media screen and (min-width: $tablet) {
     display: flex;
     flex-wrap: wrap;
+    height: 200px;
   }
-  @media screen and (max-width: $phone) {
+  @media screen and (min-width: $phone) {
     display: flex;
     flex-wrap: wrap;
+    height: 300px;
+  }
+  @media screen and (min-width: $responsive) {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
   }
 }
 #container2 {
   display: flex;
   justify-content: space-evenly;
-  @media screen and (max-width: $tablet) {
+  @media screen and (min-width: $tablet) {
     display: flex;
     flex-wrap: wrap;
     margin-top: 225px;
+    height: 500px;
   }
-  @media screen and (max-width: $phone) {
+  @media screen and (min-width: $phone) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 225px;
+    height: 500px;
+  }
+  @media screen and (min-width: $responsive) {
     display: flex;
     flex-wrap: wrap;
     margin-top: 225px;
@@ -798,6 +809,16 @@ body {
   width: 50px;
   margin-top: 10px;
 }
+#nest {
+  height: 250px;
+  width: 130px;
+  margin-top: 10px;
+}
+#post {
+    height: 200px;
+    width: 130px;
+    margin-top: 20px;
+  }
 
 #reactTitle {
   margin-top: -20px;
@@ -823,6 +844,12 @@ body {
 #recoilTitle {
   margin-top: 10px;
 }
+#nestTitle {
+  margin-top: 10px;
+}
+#postTitle {
+  margin-top: 10px;
+}
 #page4 {
   width: 100%;
   height: 100vh;
@@ -830,6 +857,9 @@ body {
   padding-top: 70px;
   @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) {
     height: 700px;
+  }
+  @media screen and (min-width: $responsive) {
+    height: 730px;
   }
 }
 #page4title {
@@ -868,12 +898,17 @@ body {
   text-align: justify;
   font-size: 16px;
 
-  @media screen and (max-width: $tablet) {
+  @media screen and (min-width: $responsive) {
+    font-size: 13px;
+    width: 280px;
+    margin: 0;
+  }
+  @media screen and (min-width: $tablet) {
     font-size: 13px;
     width: 350px;
     margin: 0;
   }
-  @media screen and (max-width: $phone) {
+  @media screen and (min-width: $phone) {
     font-size: 13px;
     width: 350px;
     margin: 0;
@@ -934,10 +969,12 @@ body {
   width: 100%;
   height: 100%;
   background-position: center center;
-  @media screen and (max-width: $tablet) {
+  @media screen and (min-width: $responsive) {
+    height: 650px;}
+  @media screen and (min-width: $tablet) {
     background-position: left;
   }
-  @media screen and (max-width: $phone) {
+  @media screen and (min-width: $phone) {
     background-position: left;
   }
   @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) {
@@ -973,13 +1010,17 @@ body {
   margin: auto;
   border-radius: $border-radius-container;
   box-shadow: 0px 0px 30px $color-light-black;
-  @media screen and (max-width: $tablet) {
-    width: 300px;
-    height: 515px;
+  @media screen and (min-width: $responsive) {
+    font-size: 13px;
+    width: 280px;
   }
-  @media screen and (max-width: $phone) {
+  @media screen and (min-width: $tablet) {
     width: 300px;
-    height: 550px;
+    height: 500px;
+  }
+  @media screen and (min-width: $phone) {
+    width: 300px;
+    height: 500px;
   }
 }
 
