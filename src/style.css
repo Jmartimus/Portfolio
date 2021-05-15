@@ -1064,26 +1064,31 @@ body {
 
 @media screen and (min-width: 320px) {
   #page3 {
-    height: 1700px;
+    height: 1800px;
   }
 }
 
 @media screen and (min-width: 600px) {
   #page3 {
-    height: 700px;
+    height: 1500px;
   }
 }
 
 @media screen and (min-width: 415px) {
   #page3 {
-    background-size: 800px;
-    background-position: left;
+    height: 1800px;
   }
 }
 
-@media only screen and (orientation: landscape) and (mix-width: 844px) {
+@media only screen and (orientation: landscape) and (min-width: 844px) {
   #page3 {
-    height: 700px;
+    height: 1300px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #page3 {
+    height: 800px;
   }
 }
 
@@ -1115,9 +1120,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
   margin-top: 50px;
 }
 
@@ -1136,16 +1141,15 @@ body {
 }
 
 #container1 {
-  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 600px) {
@@ -1155,7 +1159,7 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    height: 200px;
+    height: auto;
   }
 }
 
@@ -1166,7 +1170,7 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    height: 300px;
+    height: auto;
   }
 }
 
@@ -1177,7 +1181,7 @@ body {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    height: 300px;
+    height: auto;
   }
 }
 
@@ -1185,43 +1189,28 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 500px;
 }
 
 @media screen and (min-width: 600px) {
   #container2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     margin-top: 225px;
-    height: 500px;
   }
 }
 
 @media screen and (min-width: 415px) {
   #container2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     margin-top: 225px;
-    height: 500px;
   }
 }
 
 @media screen and (min-width: 320px) {
   #container2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-top: 225px;
+    margin-top: 100px;
   }
 }
 
@@ -1253,15 +1242,24 @@ body {
   color: #242526;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .skillContainers {
     height: 250px;
+    width: 200px;
   }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (min-width: 415px) {
   .skillContainers {
     height: 250px;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .skillContainers {
+    height: 250px;
+    width: 150px;
   }
 }
 
@@ -1313,13 +1311,13 @@ body {
 }
 
 #nest {
-  height: 250px;
+  height: 150px;
   width: 130px;
   margin-top: 10px;
 }
 
 #post {
-  height: 200px;
+  height: 130px;
   width: 130px;
   margin-top: 20px;
 }
@@ -1357,7 +1355,7 @@ body {
 }
 
 #nestTitle {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 #postTitle {

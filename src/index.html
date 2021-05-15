@@ -15,20 +15,27 @@
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <meta property="og:image" content= "https://i.imgur.com/bCPt1Y3.jpg" />
+  <meta property="og:image" content="https://i.imgur.com/bCPt1Y3.jpg" />
   <meta property="og:type" content="website thumbnail" />
   <meta property="og:url" content="https://www.jonathanmartinez.net/" />
   <meta property="og:title" content="Check out Jonathan's Portfolio Page" />
-  <meta property="og:description" content="Jonathan's Portfolio Page shares some of his most recent projects and was created to share his work with the world.  Enjoy!" /> 
+  <meta property="og:description"
+    content="Jonathan's Portfolio Page shares some of his most recent projects and was created to share his work with the world.  Enjoy!" />
   <script>{ var date = new Date().getFullYear }</script>
+  <script src="https://unpkg.com/scrollreveal@4"></script>
+  <script>
+    ScrollReveal({ duration: 500 })
+  </script>
+
 
 </head>
 
 <!--1. Add animations somewhere? maybe appear on scroll?
-    2. Add Social Media Site after I can fix the back end
-    3. Convert image to link for thumbnails-->
+  2. lazyload about me image with blur on scroll.
+  3. do a cool design with scroll reveal with logos -->
 
 <body>
+
   <div id="page1">
     <div id="nav-div">
       <nav id="nav-list">
@@ -39,7 +46,8 @@
           </li>
           <li><a class="navPoint" href="#page3">Skills</a></li>
           <li>
-            <a class="navPoint" href="#page4"><span class="shortAbout">About</span><span class="longAbout">About Me</span></a>
+            <a class="navPoint" href="#page4"><span class="shortAbout">About</span><span class="longAbout">About
+                Me</span></a>
           </li>
           <li>
             <a class="navPoint" href="#page5">Contact</a>
@@ -62,6 +70,7 @@
     </div>
 
   </div>
+
   <div id="page2">
     <div>
       <h1 id="page2title">Portfolio
@@ -69,13 +78,14 @@
       </h1>
     </div>
     <div class="allprojectscontainer">
-      <div id="randomQuoteMachine" class="projectcontainer">
+      <div id="calculator" class="projectcontainer">
         <div class='imgcontainer shrink'><a href="https://dreamy-ramanujan-d28f2a.netlify.app/" target="_blank"><img
               id="projectimage" src="images/calculator.png"></a></div>
         <div class="projTitles">Javascript Calculator</div>
         <hr class="projectlines">
         <div class="projSkills">HTML | SCSS | JAVASCRIPT | REACT</div>
-        <div class="projAbout">This is a calculator that carries out simple functions using Javascript it also utilizes the useRef hook.</div>
+        <div class="projAbout">This is a calculator that carries out simple functions using Javascript it also utilizes
+          the useRef hook.</div>
         <div class="btncontainer"><a id="demo" class="btns" href="https://dreamy-ramanujan-d28f2a.netlify.app/"
             target="_blank">Demo</a><a id="code" class="btns" href="https://github.com/Jmartimus/calculator"
             target="_blank">Code</a></div></a>
@@ -106,7 +116,7 @@
             target="_blank">Demo</a><a id="code" class="btns" href="https://github.com/Jmartimus/React-markdown"
             target="_blank">Code</a></div></a>
       </div>
-      <div id="digitalClock" class="projectcontainer">
+      <div id="marsApp" class="projectcontainer">
         <div class='imgcontainer shrink'><a href="https://adoring-brahmagupta-10a731.netlify.app/" target="_blank"><img
               id="projectimage" src="images/MarsRoverApp.png"></a>
         </div>
@@ -149,9 +159,9 @@
           <div id="typescriptTitle">TypeScript</div>
         </div>
       </div>
-      
+
       <div id="container2">
-        
+
         <div class="skillContainers">
           <img id="react" src="images/Logos/React-icon.png">
           <div id="reactTitle">React</div>
@@ -239,4 +249,39 @@
     <div id="builtBy">Built by:<img id="jmartLogo" src="images/Jmart_Design_Logo.png"></img></div>
     <div id="copyright">&copy Jonathan Martinez 2021</div>
   </footer>
+  <script>
+    ScrollReveal().reveal('#calculator', { easing: 'ease-in', delay: 500 });
+    ScrollReveal().reveal('#drumMachine', { easing: 'ease-in',delay: 1000 })
+    ScrollReveal().reveal('#reactmarkdown', { easing: 'ease-in',delay: 1500 })
+    ScrollReveal().reveal('#marsApp', { easing: 'ease-in',delay: 2000 })
+    ScrollReveal().reveal("#HTML5", { easing: 'ease-in',delay: 2500 });
+  ScrollReveal().reveal("#CSS", { easing: 'ease-in',delay: 2000 });
+    ScrollReveal().reveal("#Sass", { easing: 'ease-in',delay: 1500 });
+      ScrollReveal().reveal("#JavaScript", { easing: 'ease-in',delay: 1000 });
+        ScrollReveal().reveal("#TypeScript", { easing: 'ease-in',delay: 500 });
+          ScrollReveal().reveal("#react", { easing: 'ease-in',delay: 500 });
+            ScrollReveal().reveal("#redux", { easing: 'ease-in',delay: 1000 });
+              ScrollReveal().reveal("#Recoil", { easing: 'ease-in',delay: 1500 });
+                ScrollReveal().reveal("#nest", { easing: 'ease-in',delay: 2000 });
+                ScrollReveal().reveal("#post", { easing: 'ease-in',delay: 2500 });
+                ScrollReveal().reveal("#aboutPic", {easing: 'ease-in',
+    rotate: {
+        x: -20,
+        z: -20
+    },delay: 1000 });
+  </script>
 </body>
+
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
