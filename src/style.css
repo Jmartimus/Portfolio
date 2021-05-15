@@ -1377,7 +1377,7 @@ body {
 
 @media screen and (min-width: 320px) {
   #page4 {
-    height: 730px;
+    height: 800px;
   }
 }
 
@@ -1472,9 +1472,10 @@ body {
   }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1300px) {
+@media screen and (min-width: 1000px) {
   #aboutText {
-    width: 500px;
+    width: 800px;
+    font-size: 18px;
   }
 }
 

@@ -860,7 +860,7 @@ body {
     height: 700px;
   }
   @media screen and (min-width: $responsive) {
-    height: 730px;
+    height: 800px;
   }
 }
 #page4title {
@@ -922,8 +922,9 @@ body {
     font-size: 13px;
     width: 300px;
   }
-  @media screen and (min-width: $desktopSmall) and (max-width: $desktopLarge) {
-    width: 500px;
+  @media screen and (min-width: $desktopSmall){
+    width: 800px;
+    font-size: 18px;
   }
 }
 .aboutLinks {
