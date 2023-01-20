@@ -937,6 +937,31 @@ body {
   }
 }
 
+#budgetyAbt {
+  font-size: 11px;
+  margin: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  #budgetyAbt {
+    font-size: 7.5px;
+    margin: 2px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  #budgetyAbt {
+    font-size: 7.5px;
+    margin: 2px;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 844px) {
+  #budgetyAbt {
+    font-size: 8px;
+  }
+}
+
 #marsAbout {
   font-size: 11px;
   margin: 6px;

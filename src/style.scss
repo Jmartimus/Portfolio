@@ -305,7 +305,8 @@ body {
   align-items: center;
   @media screen and (min-width: $responsive) {
     background-color: black;
-  margin:0}
+    margin: 0;
+  }
 }
 
 .navPoint {
@@ -577,6 +578,23 @@ body {
     font-size: 12px;
   }
 }
+
+#budgetyAbt {
+  font-size: 11px;
+  margin: 6px;
+  @media screen and (max-width: $tablet) {
+    font-size: 7.5px;
+    margin: 2px;
+  }
+  @media screen and (max-width: $phone) {
+    font-size: 7.5px;
+    margin: 2px;
+  }
+  @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) {
+    font-size: 8px;
+  }
+}
+
 #marsAbout {
   font-size: 11px;
   margin: 6px;
@@ -592,6 +610,7 @@ body {
     font-size: 8px;
   }
 }
+
 .verticalLine {
   border-right: 1px solid $color-light-black;
 }
@@ -770,7 +789,8 @@ body {
   }
   @media screen and (min-width: $responsive) {
     height: 250px;
-    width: 150px;}
+    width: 150px;
+  }
 }
 #react {
   height: 200px;
@@ -817,10 +837,10 @@ body {
   margin-top: 10px;
 }
 #post {
-    height: 130px;
-    width: 130px;
-    margin-top: 20px;
-  }
+  height: 130px;
+  width: 130px;
+  margin-top: 20px;
+}
 
 #reactTitle {
   margin-top: -20px;
@@ -923,7 +943,7 @@ body {
     font-size: 13px;
     width: 300px;
   }
-  @media screen and (min-width: $desktopSmall){
+  @media screen and (min-width: $desktopSmall) {
     width: 800px;
     font-size: 18px;
   }
@@ -973,7 +993,8 @@ body {
   height: 100%;
   background-position: center center;
   @media screen and (min-width: $responsive) {
-    height: 650px;}
+    height: 650px;
+  }
   @media screen and (min-width: $tablet) {
     background-position: left;
   }

@@ -21,7 +21,7 @@
   <meta property="og:title" content="Check out Jonathan's Portfolio Page" />
   <meta property="og:description"
     content="Jonathan's Portfolio Page shares some of his most recent projects and was created to share his work with the world.  Enjoy!" />
-  <script>{ var date = new Date().getFullYear }</script>
+  <script>{ var date = new Date().getFullYear; }</script>
   <script src="https://unpkg.com/scrollreveal@4"></script>
   <script>
     ScrollReveal({ duration: 500 })
@@ -103,18 +103,21 @@
             target="_blank">Demo</a><a id="code" class="btns" href="https://github.com/Jmartimus/Drum-Machine"
             target="_blank">Code</a></div></a>
       </div>
-      <div id="reactmarkdown" class="projectcontainer">
-        <div class='imgcontainer shrink'><a href="https://hungry-carson-743ef6.netlify.app/" target="_blank"><img
-              id="projectimage" src="images/ReactMarkdown.png"></a></div>
-        <div class="projTitles">Markdown Previewer</div>
+
+      <div id="budgety" class="projectcontainer">
+        <div class='imgcontainer shrink'><a href="https://budgety-front-end.uc.r.appspot.com/" target="_blank"><img
+              id="projectimage" src="images/Budgety.png"></a></div>
+        <div class="projTitles">Budgety</div>
         <hr class="projectlines">
-        <div class="projSkills">SCSS | JAVASCRIPT | REACT | MARKEDjs</div>
-        <div class="projAbout">This app uses "Marked" to compile text that has been input in the "Editor" into Markdown
-          showed in the "Previewer".</div>
-        <div class="btncontainer"><a id="demo" class="btns" href="https://hungry-carson-743ef6.netlify.app/"
-            target="_blank">Demo</a><a id="code" class="btns" href="https://github.com/Jmartimus/React-markdown"
+        <div class="projSkills">TYPESCRIPT | REACT | NEXTJS | MONGODB</div>
+        <div class="projAbout" id="budgetyAbt">This is a full stack budgeting app that is ready for use. I built the
+          NextJs backend utilizing MongoDB to store data. This app features CRUD capabilities on
+          all transactions, authentication, and organization of monthly budgets.</div>
+        <div class="btncontainer"><a id="demo" class="btns" href="https://budgety-front-end.uc.r.appspot.com/"
+            target="_blank">Demo</a><a id="code" class="btns" href="https://github.com/Jmartimus/budgety"
             target="_blank">Code</a></div></a>
       </div>
+
       <div id="marsApp" class="projectcontainer">
         <div class='imgcontainer shrink'><a href="https://adoring-brahmagupta-10a731.netlify.app/" target="_blank"><img
               id="projectimage" src="images/MarsRoverApp.png"></a>
@@ -250,9 +253,9 @@
   </footer>
   <script>
     ScrollReveal().reveal('#calculator', { easing: 'ease-in', delay: 200 });
-    ScrollReveal().reveal('#drumMachine', { easing: 'ease-in', delay: 400 })
-    ScrollReveal().reveal('#reactmarkdown', { easing: 'ease-in', delay: 600 })
-    ScrollReveal().reveal('#marsApp', { easing: 'ease-in', delay: 800 })
+    ScrollReveal().reveal('#drumMachine', { easing: 'ease-in', delay: 400 });
+    ScrollReveal().reveal('#budgety', { easing: 'ease-in', delay: 600 });
+    ScrollReveal().reveal('#marsApp', { easing: 'ease-in', delay: 800 });
     ScrollReveal().reveal("#HTML5", { easing: 'ease-in', delay: 1000 });
     ScrollReveal().reveal("#CSS", { easing: 'ease-in', delay: 800 });
     ScrollReveal().reveal("#Sass", { easing: 'ease-in', delay: 600 });
