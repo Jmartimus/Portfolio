@@ -874,14 +874,17 @@ body {
 }
 #page4 {
   width: 100%;
-  height: 100vh;
   background-color: $color-mid-gray;
   padding-top: 70px;
   @media only screen and (orientation: landscape) and (max-width: $phoneLandscape) {
     height: 700px;
   }
   @media screen and (min-width: $responsive) {
-    height: 800px;
+    height: 940px;
+  }
+
+  @media screen and (min-width: $phoneLandscape) {
+    height: 760px;
   }
 }
 #page4title {
